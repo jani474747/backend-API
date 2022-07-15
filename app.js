@@ -23,13 +23,13 @@ mongoose.connect('mongodb+srv://janishaida:janishaida@cluster0.zzdm3.mongodb.net
 // })
 
 
- app.get('/',(req,res)=>{
-     res.send('we are in home')
- });
+//  app.get('/',(req,res)=>{
+//      res.send('we are in home')
+//  });
 
- app.get('/posts',(req,res)=>{
-     res.send('we are in posts');
- });
+//  app.get('/posts',(req,res)=>{
+//      res.send('we are in posts');
+//  });
  app.post('/addbrands',async (req,res)=>{ 
       const {brandname}  =req.body
     try{
